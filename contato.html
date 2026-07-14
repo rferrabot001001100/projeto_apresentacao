@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Agência de Tráfego Digital</title>
+</head>
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Nossos Planos</a></li>
+                <li><a href="sobre.html">Sobre a Agência</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="infos-contato">
+            <h2>Canais de Atendimento</h2>
+            <p>Responderemos o mais rápido possível para agendar uma reunião de alinhamento.</p>
+            <ul>
+                <li><strong>E-mail:</strong> contato@agenciadetrafego.com.br</li>
+                <li><strong>Telefone:</strong> (11) 99999-9999</li>
+            </ul>
+        </section>
+
+        <section id="formulario-contato">
+            <h2>Envie uma mensagem</h2>
+            
+            <form action="" method="post">
+                <label for="ipt-nome">Nome Completo:</label><br />
+                <input type="text" id="ipt-nome" name="nome" required size="40">
+                <br /><br />
+
+                <label for="ipt-email">E-mail Profissional:</label><br />
+                <input type="email" id="ipt-email" name="email" required size="40">
+                <br /><br />
+
+                <label for="ipt-assunto">Qual seu objetivo principal?</label><br />
+                <select name="assunto" id="ipt-assunto" required>
+                    <option value="" disabled selected>SELECIONE...</option>
+                    <option value="vendas">Aumentar Vendas / E-commerce</option>
+                    <option value="leads">Captação de Contatos (Leads)</option>
+                    <option value="redes">Crescimento de Redes Sociais</option>
+                </select>
+                <br /><br />
+
+                <label for="ipt-msg">Conte um pouco sobre o seu negócio:</label><br />
+                <textarea name="mensagem" id="ipt-msg" cols="42" rows="5" required></textarea>
+                <br /><br />
+
+                <button type="submit">Enviar Solicitação de Orçamento</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr />
+        <p>&copy; 2026 Agência Digital de Tráfego Pago. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
